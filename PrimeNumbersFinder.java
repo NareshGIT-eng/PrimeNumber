@@ -15,7 +15,7 @@ public class PrimeNumbersFinder {
             int n = scanner.nextInt();
     
             // The next line of code will locate and display all prime numbers up to n.
-            System.out.print("Prime numbers: ");
+            System.out.print("Prime numbers are: ");
             for (int i = 2; i <= n; i++) {
                 if (isPrime(i)) {
                     System.out.print(i + " ");
